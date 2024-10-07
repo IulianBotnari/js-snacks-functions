@@ -2,6 +2,17 @@
 
 const name = 'Mario';
 
+function hello(params) {
+
+  return `hello ${params}`
+    
+    
+}
+
+let saluto = hello(name)
+
+console.log(saluto);
+
 
 // Dichiara la funzione qui.
 
